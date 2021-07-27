@@ -19,7 +19,7 @@ function run(minBet, count) {
             currentBet = lastBet * 2
             rounds.push(currentBet)
         }
-        console.log(`Bet ${i} : $${currentBet}`)
+        console.log(`Bet ${i+1} : $${currentBet}`)
     }
     var totalAmout = rounds.reduce(function (a, b) {
         return parseInt(a) + parseInt(b)
