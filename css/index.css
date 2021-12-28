@@ -1,16 +1,7 @@
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
 }
-
-td,
-th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: #dddddd;
+th, td {
+  background-color: #96D4D4;
 }
