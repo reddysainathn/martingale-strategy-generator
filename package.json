@@ -1,21 +1,21 @@
 {
-  "name": "martingale-strategy-generator",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "check": "node src/js/runStatergy.js",
-    "start": "node index.js",
-    "dev": "nodemon ./index.js localhost 8080"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "prompt": "^1.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.2"
-  }
+    "name": "martingale-strategy-generator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "check": "node js/runStatergy.js",
+        "start": "node index.js",
+        "dev": "nodemon ./index.js localhost 8080"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "prompt": "^1.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
 }

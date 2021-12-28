@@ -1,4 +1,4 @@
-// var martingale = require('./martingale.js')
+var martingale = require('./martingale.js')
 
 function check() {
 
