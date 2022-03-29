@@ -1,5 +1,6 @@
 ### Martingale Statergy Generator....
 
+[Web Link](https://sainath.ml/martingale-strategy-generator/)
 
 #### Run Martingale Statergy
     npm run check
