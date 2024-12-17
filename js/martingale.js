@@ -24,12 +24,12 @@ function run(minBet, count) {
     var totalAmount = rounds.reduce(function (a, b) {
         return Number(a) + Number(b);
     }, 0);
-    console.log(`Amount required to play ${count} rounds : $${totalAmout}`)
+    console.log(`Amount required to play ${count} rounds : $${totalAmount}`)
 
     var response = {
         "minBet": minBet,
         "count": count,
-        "totalAmout": totalAmout,
+        "totalAmout": totalAmount,
         "rounds": rounds
     }
     return response
