@@ -21,9 +21,9 @@ function run(minBet, count) {
         }
         console.log(`Bet ${i+1} : $${currentBet}`)
     }
-    var totalAmout = rounds.reduce(function (a, b) {
-        return parseInt(a) + parseInt(b)
-    })
+    var totalAmount = rounds.reduce(function (a, b) {
+        return Number(a) + Number(b);
+    }, 0);
     console.log(`Amount required to play ${count} rounds : $${totalAmout}`)
 
     var response = {
